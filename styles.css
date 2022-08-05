@@ -119,7 +119,7 @@ h1 span{
     max-width: 375px;
    
      
-    margin: 0 50px;
+    margin: 0 auto;
     color: hsl(229, 6%, 66%); 
     background: white;
     padding: 10px;
