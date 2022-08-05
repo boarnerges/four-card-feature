@@ -116,8 +116,9 @@ h1 span{
 }
 
 .container {
-    max-width: 1120px;
-    /* width: 60%;    */
+    max-width: 375px;
+   
+     
     margin: 0 auto;
     color: hsl(229, 6%, 66%); 
     background: white;
@@ -176,7 +177,7 @@ footer{
     /* background: red; */
   }
   .container {
-    min-width: 375px;
+    max-width: 1120px;
   }
 
   .card{
