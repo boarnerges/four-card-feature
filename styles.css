@@ -117,9 +117,8 @@ h1 span{
 
 .container {
    
-    width: 350px;  
-   
-     
+    max-width: 375px;  
+    width: 80%;     
     margin: 0 auto;
     color: hsl(229, 6%, 66%); 
     background: white;
