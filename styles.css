@@ -115,10 +115,13 @@ h1 span{
   font-weight:400;
 }
 
+.main{
+  max-width: 375px;  
+    width: 80%; 
+}
 .container {
    
-    max-width: 375px;  
-    width: 80%;     
+      
     margin: 0 auto;
     color: hsl(229, 6%, 66%); 
     background: white;
