@@ -77,27 +77,14 @@ select {
 }
 
 
-/* ### Primary
-
-- Red: hsl(0, 78%, 62%)
-- Cyan: hsl(180, 62%, 55%)
-- Orange: hsl(34, 97%, 64%)
-- Blue: hsl(212, 86%, 64%)
-
-### Neutral
-
-- Very Dark Blue: hsl(234, 12%, 34%)
-- Grayish Blue: hsl(229, 6%, 66%)
-- Very Light Gray: hsl(0, 0%, 98%) */
-
-
-
 /*--------------------General Styling-----------------------*/
 body{
   font-family: 'Poppins', sans-serif;
   background-color: hsl(0, 0%, 98%);
   min-width: 375px;
-  /* max-width: 375px; */
+  display:flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .header{
@@ -105,8 +92,7 @@ body{
   text-align: center;
   width: 100%;
   margin: 0 auto;
-  color: hsl(229, 6%, 66%); 
-  background: black;
+  color: hsl(229, 6%, 66%);
 }
 
 .title {
@@ -124,10 +110,7 @@ h1 span{
     background: white;
     padding: 10px;
     justify-content: center;
-    width:
 }
-
-
 
 .card{
   border-radius: 5px;
@@ -172,9 +155,9 @@ footer{
   text-align: center;
 }
 
-@media (min-width: 1500px){
+@media (min-width: 500px){
   body{
-    /* background: red; */
+    width: 100%;
   }
   .container {
     max-width: 1120px;
